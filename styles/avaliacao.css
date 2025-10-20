@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+}
+
+.hero {
+      background: linear-gradient(to right, #f24e1e, #f79e2b);
+      color: white;
+      padding: 60px 0;
+    }
+    .card-continente {
+      border-radius: 15px;
+      padding: 30px;
+      color: white;
+      min-height: 180px;
+      transition: transform 0.3s ease;
+    }
+    .card-continente:hover {
+      transform: scale(1.05);
+    }
+    .bg-europa { background-color: #f25454; }
+    .bg-asia { background-color: #f37e3b; }
+    .bg-america { background-color: #f9a13b; }
