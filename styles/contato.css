@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.formbox {
+      max-width: 500px;
+      background-color: #fafafa;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btnlaranja {
+      background-color: #ff6b3d;
+      color: #fff;
+    }
+
+    .btnlaranja:hover {
+      background-color: #ff6b3d;
+    }

@@ -1,22 +1,102 @@
-.container{
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.navbar-brand {
+  font-weight: 600;
+  color: #ff6b3d;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img.logo {
+  height: 80px;
+  max-height: none;
+  margin-right: 8px;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding-right: 40px;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.busca i {
+  position: absolute;
+  right: 15px;
+  color: #888;
 }
 
 .hero {
-      background: linear-gradient(to right, #f24e1e, #f79e2b);
-      color: white;
-      padding: 60px 0;
-    }
-    .card-continente {
-      border-radius: 15px;
-      padding: 30px;
-      color: white;
-      min-height: 180px;
-      transition: transform 0.3s ease;
-    }
-    .card-continente:hover {
-      transform: scale(1.05);
-    }
-    .bg-europa { background-color: #f25454; }
-    .bg-asia { background-color: #f37e3b; }
-    .bg-america { background-color: #f9a13b; }
+  background: linear-gradient(90deg, #f25f36, #f19a30);
+  color: #fff;
+  padding: 70px 0;
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.hero img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.explorar {
+  background: #fff;
+  color: #f25f36;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+}
+
+.cardcont {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 25px;
+}
+
+.europa {
+  background: linear-gradient(135deg, #f25f36, #f19a30);
+}
+
+.asia {
+  background: linear-gradient(135deg, #f25f36, #f19a30);
+}
+
+.america {
+  background: linear-gradient(135deg, #f25f36, #f19a30);
+}
+
+.cardcont small {
+  display: block;
+  margin-top: 5px;
+}
+.item {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+.cardinfo {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #f25f36;
+  padding: 5px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.85rem;
+}

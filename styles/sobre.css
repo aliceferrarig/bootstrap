@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.section-text {
+      font-size: 1.25rem; 
+      line-height: 1.8;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      color: #ff6b3d;
+    }
