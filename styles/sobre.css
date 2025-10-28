@@ -1,4 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.navbar-brand {
+  font-weight: 600;
+  color: #ff6b3d;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img.logo {
+  height: 90px;
+  max-height: none;
+  margin-right: 8px;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding-right: 40px;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.busca i {
+  position: absolute;
+  right: 15px;
+  color: #888;
+}
+
 .section-text {
       font-size: 1.25rem; 
       line-height: 1.8;
@@ -7,3 +41,27 @@
       font-size: 2.5rem;
       color: #ff6b3d;
     }
+    .footer {
+  background: linear-gradient(90deg, #f19a30, #f19a30);
+  color: #fff;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 12px;
+}

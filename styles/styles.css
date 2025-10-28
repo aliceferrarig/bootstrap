@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  padding-top: 50px; }
-
+  padding-top: 50px;
+}
+.redes {
+  justify-content: center;
+}
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -15,7 +18,7 @@ body {
 }
 
 .navbar-brand img.logo {
-  height: 80px;
+  height: 110px;
   max-height: none;
   margin-right: 8px;
 }
@@ -103,6 +106,24 @@ body {
   font-weight: 500;
   font-size: 0.85rem;
 }
+.receita-img {
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .receita-img {
+  transform: scale(1.03);
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-body {
+  padding: 1rem 1.2rem;
+}
+
 .footer {
   background: linear-gradient(90deg, #f19a30, #f19a30);
   color: #fff;
@@ -133,3 +154,9 @@ body {
   transform: translateY(-3px);
 }
 
+#siga {
+  text-align: rigth;
+}
+#insta {
+  text-align: right;
+}

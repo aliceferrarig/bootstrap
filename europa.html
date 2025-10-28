@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europa - Savoir</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon/culinaria.png" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles/europa.css" />
+  </head>
+    <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand">
+          <img
+            src="img/155084f7-c8fc-40a2-8174-daeded5543bb.png"
+            alt="Logo Savoir"
+            class="logo"
+          />
+        </a>
+
+        <div
+          class="navbar-collapse justify-content-end align-items-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav me-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center">
+            <div class="busca me-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Buscar Receitas..."
+              />
+              <i class="bi bi-search"></i>
+            </div>
+            <i class="bi bi-person fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+   
+    <main class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold text-uppercase" style="color:#ff6b3d;">Sabores da Europa</h2>
+        <p class="text-muted mb-5">
+          Explore os pratos clássicos e refinados que definem a culinária europeia.
+        </p>
+
+        <div class="row g-4">
+          <!-- Itália card 1 -->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/carbonara.jpg" alt="Carbonara" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">Itália</span>
+                <h6 class="fw-bold">Carbonara</h6>
+                <p class="text-muted small mb-3">Massa italiana com ovos, queijo e pancetta crocante.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 30 min</span>
+                  <span><i class="bi bi-bar-chart"></i> Fácil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- França card 2-->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/creme.jpg" alt="Crème Brûlée" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">França</span>
+                <h6 class="fw-bold">Crème Brûlée</h6>
+                <p class="text-muted small mb-3">Creme aveludado de baunilha com cobertura caramelizada.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 50 min</span>
+                  <span><i class="bi bi-bar-chart"></i> Média</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Espanha card 3 -->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/paella.jpg" alt="Paella" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">Espanha</span>
+                <h6 class="fw-bold">Paella Valenciana</h6>
+                <p class="text-muted small mb-3">Arroz espanhol com frutos do mar, frango e açafrão.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 45 min</span>
+                  <span><i class="bi bi-bar-chart"></i> Média</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portugal card 4 -->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/pastel de nata.jpg" alt="Pastel de Nata" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">Portugal</span>
+                <h6 class="fw-bold">Pastel de Nata</h6>
+                <p class="text-muted small mb-3">Clássico português com massa folhada e creme suave.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 40 min</span>
+                  <span><i class="bi bi-bar-chart"></i> Média</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grécia card 5 -->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/baklava.jpg" alt="Baklava" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">Grécia</span>
+                <h6 class="fw-bold">Baklava</h6>
+                <p class="text-muted small mb-3">Massa folhada com nozes e mel — doce e crocante.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 2h</span>
+                  <span><i class="bi bi-bar-chart"></i> Difícil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alemanha card 6 -->
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+              <div class="img-wrapper">
+                <img src="img/torta.jpg" alt="Apfelstrudel" />
+              </div>
+              <div class="card-body">
+                <span class="badge badge-europa mb-2">Alemanha</span>
+                <h6 class="fw-bold">Apfelstrudel</h6>
+                <p class="text-muted small mb-3">Torta de maçã com canela e massa finíssima.</p>
+                <div class="d-flex justify-content-between small text-muted">
+                  <span><i class="bi bi-clock"></i> 60 min</span>
+                  <span><i class="bi bi-bar-chart"></i> Média</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão carregar -->
+        <div class="mt-5">
+          <button class="btn btn-lg text-white fw-semibold" style="background-color:#ff6b3d;">Carregar Mais Receitas</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5 py-4">
+      <div class="container text-center text-md-start">
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+              <img src="img/155084f7-c8fc-40a2-8174-daeded5543bb.png" alt="Logo Savoir" class="footer-logo me-2" />
+            </div>
+            <p class="text-white-100 mt-2">
+              Conectando culturas através dos sabores do mundo.
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-3 text-center">
+            <h6 class="text-uppercase fw-bold text-white mb-3">Navegação</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link">Envie sua receita</a></li>
+              <li><a href="index.html" class="footer-link">Top 10 Receitas</a></li>
+              <li><a href="contato.html" class="footer-link">Contato</a></li>
+              <li><a href="sobre.html" class="footer-link">Sobre</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 text-center text-md-end">
+            <h6 class="text-uppercase fw-bold text-white mb-3">Siga-nos</h6>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/" class="social-link"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/" class="social-link"><i class="bi bi-facebook"></i></a>
+              <a href="https://x.com/" class="social-link"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.youtube.com/" class="social-link"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 border-light opacity-25" />
+        <div class="text-center text-white-70 small">
+          © 2025 Savoir | Desenvolvido por Alice Ferrari
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- jivochat -->
-     <script src="//code.jivosite.com/widget/dkVi903ON4" async></script>
+    <script src="//code.jivosite.com/widget/dkVi903ON4" async></script>
     <!-- bootstrap icons -->
     <link
       rel="stylesheet"
@@ -47,10 +47,10 @@
         >
           <ul class="navbar-nav me-3">
             <li class="nav-item">
-              <a class="nav-link" href="avaliacao.html">Início</a>
+              <a class="nav-link" href="index.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="avaliacao.html">Receitas</a>
+              <a class="nav-link" href="receitas.html">Receitas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contato.html">Contato</a>
@@ -76,7 +76,7 @@
     </nav>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero mt-5">
       <div class="container">
         <div class="row align-items-center">
           <!-- Texto -->
@@ -86,10 +86,10 @@
               Descubra receitas autênticas de diferentes culturas e transforme
               sua cozinha em uma viagem gastronômica pelo mundo.
             </p>
-            <a href="#" class="btn explorar mt-3">Explorar sabores</a>
+            <a href="receitas.html" class="btn explorar mt-3">Explorar sabores</a>
 
             <div class="mt-4">
-              <small class="stats">
+              <small class="stats mt-3 mb-2">
                 +150 países &nbsp; +2.5K receitas &nbsp; +50K usuários
               </small>
             </div>
@@ -100,7 +100,7 @@
             <img
               src="img/comidas típicas.jpg"
               alt="Pratos típicos"
-              class="hero-img"
+              class="hero-img mt-4"
             />
           </div>
         </div>
@@ -120,26 +120,169 @@
             <div class="cardcont europa">
               <h4>Europa</h4>
               <p>Tradições culinárias milenares</p>
-              <small class="cardinfo mt-4">50 países</small>
+              <a
+                href="europa.html"
+                class="btn rounded-pill px-5 mt-4 fw-semibold"
+                style="
+                  background-color: rgba(255, 255, 255, 0.829);
+                  color: #ff5733;
+                "
+                >50 países</a
+              >
             </div>
           </div>
           <div class="col-md-4">
             <div class="cardcont asia">
               <h4>Ásia</h4>
               <p>Sabores exóticos e aromáticos</p>
-              <small class="cardinfo mt-4">49 países</small>
+              <a
+                href="asia.html"
+                class="btn rounded-pill px-5 mt-4 fw-semibold"
+                style="
+                  background-color: rgba(255, 255, 255, 0.829);
+                  color: #ff5733;
+                "
+                >49 países</a
+              >
             </div>
           </div>
           <div class="col-md-4">
             <div class="cardcont america">
               <h4>América</h4>
               <p>Fusão de culturas e sabores</p>
-              <small class="cardinfo mt-4">35 países</small>
+              <a
+                href="america.html"
+                class="btn rounded-pill px-5 mt-4 fw-semibold"
+                style="
+                  background-color: rgba(255, 255, 255, 0.829);
+                  color: #ff5733;
+                "
+                >35 países</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- RECEITAS EM DESTAQUE -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <h2 class="fw-bold">Receitas em Destaque</h2>
+            <p class="text-muted">
+              Pratos autênticos que vão despertar seus sentidos
+            </p>
+          </div>
+          <a
+            href="receitas.html"
+            class="text-decoration-none fw-semibold"
+            style="color: #ff6b3d"
+            >Ver todas</a
+          >
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div
+              class="card shadow-sm border-0 h-100 rounded-4 overflow-hidden"
+            >
+              <img
+                src="img/carbonara.jpg"
+                class="card-img-top receita-img"
+                alt="Carbonara Autêntica"
+              />
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Itália</span>
+                <h5 class="fw-bold">Carbonara Autêntica</h5>
+                <p class="text-muted small">
+                  Um clássico romano com ovos, queijo e pancetta
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 small"
+                >
+                  <span><i class="bi bi-clock"></i> 30 min</span>
+                  <span><i class="bi bi-star-fill text-warning"></i> 4.8</span>
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    style="color: #ff6b3d"
+                    >Ver receita</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div
+              class="card shadow-sm border-0 h-100 rounded-4 overflow-hidden"
+            >
+              <img
+                src="img/sushi.jpg"
+                class="card-img-top receita-img"
+                alt="Sushi Tradicional"
+              />
+              <div class="card-body">
+                <span class="badge bg-success mb-2">Japão</span>
+                <h5 class="fw-bold">Sushi Tradicional</h5>
+                <p class="card-text text-muted small">
+                  Arte japonesa com peixes frescos e arroz temperado
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 small"
+                >
+                  <span><i class="bi bi-clock"></i> 45 min</span>
+                  <span><i class="bi bi-star-fill text-warning"></i> 4.9</span>
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    style="color: #ff6b3d"
+                    >Ver receita</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div
+              class="card shadow-sm border-0 h-100 rounded-4 overflow-hidden"
+            >
+              <img
+                src="img/tacos.jpg"
+                class="card-img-top receita-img"
+                alt="Tacos al Pastor"
+              />
+              <div class="card-body">
+                <span class="badge bg-warning text-dark mb-2">México</span>
+                <h5 class="fw-bold">Tacos al Pastor</h5>
+                <p class="card-text text-muted small">
+                  Fusão mexicana-libanesa com carne marinada
+                </p>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 small"
+                >
+                  <span><i class="bi bi-clock"></i> 25 min</span>
+                  <span><i class="bi bi-star-fill text-warning"></i> 4.7</span>
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    style="color: #ff6b3d"
+                    >Ver receita</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="footer mt-5 py-4">
       <div class="container text-center text-md-start">
@@ -154,34 +297,34 @@
                 class="footer-logo me-2"
               />
             </div>
-            <p class="text-white-100 mt-2">
+            <p class="text-white-100 mt-2 fw-semibold">
               Conectando culturas através dos sabores do mundo.
             </p>
           </div>
 
           <!-- Links úteis -->
           <div class="col-md-4 mb-3 text-center">
-            <h6 class="text-uppercase fw-bold text-white mb-3">Navegação</h6>
+            <h6 class="text-uppercase fw-bold text-white-100 mb-3">Navegação</h6>
             <ul class="list-unstyled">
               <li>
                 <a
                   href="https://workspace.google.com/intl/pt-BR/gmail/"
-                  class="footer-link"
+                  class="footer-link fw-semibold"
                   >Envie sua receita</a
                 >
               </li>
               <li>
-                <a href="index.html" class="footer-link">Top 10 Receitas</a>
+                <a href="index.html" class="footer-link fw-semibold">Top 10 Receitas</a>
               </li>
-              <li><a href="contato.html" class="footer-link">Contato</a></li>
-              <li><a href="sobre.html" class="footer-link">Sobre</a></li>
+              <li><a href="contato.html" class="footer-link fw-semibold">Contato</a></li>
+              <li><a href="sobre.html" class="footer-link fw-semibold">Sobre</a></li>
             </ul>
           </div>
 
           <!-- Redes sociais -->
           <div class="col-md-4 text-center text-md-end">
-            <h6 class="text-uppercase fw-bold text-white mb-3">Siga-nos</h6>
-            <div class="social-icons">
+            <h6 class="text-uppercase fw-bold text-white mb-3" id="siga">Siga-nos</h6>
+            <div class="social-icons" class="redes">
               <a href="https://www.instagram.com/" class="social-link"
                 ><i class="bi bi-instagram"></i
               ></a>
@@ -198,11 +341,10 @@
               ></a>
             </div>
           </div>
-        </div>
-
+      
         <hr class="my-4 border-light opacity-25" />
 
-        <div class="text-center text-white-70 small">
+        <div class="text-center text-white-100 small">
           © 2025 Savoir | Desenvolvido por Alice Ferrari
         </div>
       </div>

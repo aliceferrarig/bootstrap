@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -33,22 +32,28 @@
   color: #888;
 }
 
-.formbox {
-      max-width: 500px;
-      background-color: #fafafa;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+.img-wrapper {
+  height: 140px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .btnlaranja {
-      background-color: #ff6b3d;
-      color: #fff;
-    }
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
 
-    .btnlaranja:hover {
-      background-color: #ff6b3d;
-    }
+.card:hover .img-wrapper img {
+  transform: scale(1.05);
+}
+.badge-india {
+  background-color: #ff6b3d; 
+  color: #fff;
+}
 .footer {
   background: linear-gradient(90deg, #f19a30, #f19a30);
   color: #fff;
